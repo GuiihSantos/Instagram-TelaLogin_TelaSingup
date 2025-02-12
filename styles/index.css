@@ -98,3 +98,77 @@ input[type="submit"]{
     font-weight: bold;
     user-select: none;
 }
+
+.get-app-panel {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.app-buttons {
+    margin-top: 16px;
+}
+
+.app-buttons img {
+    height: 40px;
+    padding: 0 2px;
+}
+
+footer {
+    text-align: center;
+    height: 50px;
+    margin-top: 50px;
+}
+
+footer a {
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.text-small {
+    font-size: 12px;
+    font-weight: bold;
+    color: gray;
+    text-transform: uppercase;
+    padding-left: 20px;
+
+    display: inline-block;
+}
+
+/* PAGINA SIGNUP */
+
+#container-signup {
+    display: flex;
+    align-items: center;
+
+    margin: 0 auto;
+    min-height: 100%;
+    max-width: 400px;
+}
+
+.message {
+    margin-inline: 70px ;
+    margin-block: 10px;
+}
+
+.message span {
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #8e8e8e;
+}
+
+.cta-buttom {
+    width: 320px;
+    margin: 10px 0;
+    height: 35px;
+    background-color: #0095f6;
+    color: #ffffff;
+    border: 0;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
